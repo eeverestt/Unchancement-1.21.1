@@ -1,0 +1,44 @@
+{
+     "anvil_cost": 2,
+     "description": {
+          "translate": "enchantment.enchancement.gale"
+     },
+     "effects": {
+          "enchancement:air_jump": {
+               "air_jump_strength": {
+                    "type": "minecraft:add",
+                    "value": 1.6
+               },
+               "air_jumps": {
+                    "type": "minecraft:add",
+                    "value": {
+                         "type": "minecraft:linear",
+                         "base": 1.0,
+                         "per_level_above_first": 1.0
+                    }
+               },
+               "charge_cooldown": {
+                    "type": "minecraft:add",
+                    "value": 0.5
+               },
+               "jump_cooldown": {
+                    "type": "minecraft:add",
+                    "value": 0.5
+               }
+          }
+     },
+     "max_cost": {
+          "base": 40,
+          "per_level_above_first": 10
+     },
+     "max_level": 2,
+     "min_cost": {
+          "base": 10,
+          "per_level_above_first": 10
+     },
+     "slots": [
+          "feet"
+     ],
+     "supported_items": "#minecraft:enchantable/foot_armor",
+     "weight": 5
+}

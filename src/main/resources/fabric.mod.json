@@ -1,0 +1,28 @@
+{
+     "schemaVersion": 1,
+     "id": "unchancement",
+     "version": "${version}",
+     "name": "Unchancement",
+     "description": "Attempts to undo the balancing changes made to Enchancement",
+     "authors": [
+          "AcoYT"
+     ],
+     "license": "ARR",
+     "icon": "assets/unchancement/icon.png",
+     "environment": "*",
+     "entrypoints": {
+          "main": [
+               "net.acoyt.unchancement.Unchancement"
+          ]
+     },
+     "mixins": [
+          "unchancement.mixins.json"
+     ],
+     "depends": {
+          "fabricloader": ">=0.15.11",
+          "minecraft": "~1.21.1",
+          "java": ">=21",
+          "fabric-api": "*",
+          "enchancement": "*"
+     }
+}
