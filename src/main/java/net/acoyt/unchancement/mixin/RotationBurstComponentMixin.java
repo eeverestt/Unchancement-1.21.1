@@ -3,6 +3,7 @@ package net.acoyt.unchancement.mixin;
 import moriyashiine.enchancement.common.component.entity.RotationBurstComponent;
 import moriyashiine.enchancement.common.init.ModSoundEvents;
 import moriyashiine.enchancement.common.util.EnchancementUtil;
+import net.minecraft.enchantment.Enchantment;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.util.math.Vec3d;
 import org.spongepowered.asm.mixin.Final;

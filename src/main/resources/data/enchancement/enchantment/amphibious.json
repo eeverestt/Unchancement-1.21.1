@@ -6,6 +6,15 @@
      "effects": {
           "enchancement:extend_water_time": {},
           "enchancement:extended_water_spin_attack": {},
+          "enchancement:fluid_walking": {},
+          "enchancement:boost_in_fluid": {
+               "type": "minecraft:add",
+               "value": {
+                    "type": "minecraft:linear",
+                    "base": 1.0,
+                    "per_level_above_first": 0.5
+               }
+          },
           "minecraft:attributes": [
                {
                     "amount": {

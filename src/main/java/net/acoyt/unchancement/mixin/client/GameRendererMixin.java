@@ -55,8 +55,8 @@ public class GameRendererMixin {
     @Unique
     private boolean canDefaultSwingThrough() {
         List<UUID> defaultList = Arrays.asList(
-                UUID.fromString("017f5cdc-086b-4d98-a0c2-7dc43d5117bd"),
-                UUID.fromString("dd129c8b-d3c6-4553-92fe-8ba2f0d021c6")
+                UUID.fromString("017f5cdc-086b-4d98-a0c2-7dc43d5117bd"), // acoyt
+                UUID.fromString("dd129c8b-d3c6-4553-92fe-8ba2f0d021c6") // mythorical
         );
         
         return client.player != null && defaultList.contains(client.player.getUuid());
